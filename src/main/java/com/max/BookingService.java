@@ -10,11 +10,9 @@ public class BookingService {
         }
         throw new CantBookException();
     }
-
     public boolean checkTimeInBD(LocalDateTime from, LocalDateTime to) {
         return false;
     }
-
     public boolean createBook(String userId, LocalDateTime from, LocalDateTime to) {
         return false;
     }
